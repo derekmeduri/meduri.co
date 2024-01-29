@@ -19,7 +19,7 @@ const startApolloServer = async () => {
   await server.start();
 
   app.use(express.urlencoded({ extended: false }));
-  n;
+
   app.use(express.json());
 
   // Serve up static assets
