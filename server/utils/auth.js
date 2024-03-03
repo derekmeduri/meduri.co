@@ -1,6 +1,7 @@
 const { GraphQLError } = require("graphql");
 const jwt = require("jsonwebtoken");
 
+//move to env
 const secret = "mysecretssshhhhhhh";
 const expiration = "2h";
 
