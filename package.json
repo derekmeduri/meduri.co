@@ -1,27 +1,22 @@
 {
-  "name": "meduri.co",
-  "version": "1.0.0",
-  "description": "",
-  "engines": {
-    "node": "20.3.1",
-    "npm": "9.6.7"
-  },
-  "main": "index.js",
+  "name": "meduri",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "node server/server.js",
-    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "seed": "cd server && npm run seed",
-    "build": "cd client && npm run build"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "Derek Meduri <derekmeduri@gmail.com>",
-  "license": "MIT",
   "dependencies": {
-    "create-react-app": "^5.0.1",
-    "dotenv": "^16.4.1"
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.3"
   },
   "devDependencies": {
-    "concurrently": "^5.1.0"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
   }
 }
