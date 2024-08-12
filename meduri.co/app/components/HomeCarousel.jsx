@@ -9,7 +9,7 @@ function HomeCarousel() {
   <div>
     <Carousel>
       <Carousel.Item interval={500}>
-        <Image src={Carousel1} alt='imagg1' height={300} width={400} />
+        <Image src={Carousel1} alt='image1' height={300} width={400} />
       </Carousel.Item>
       <Carousel.Item interval={500}>
         <Image src={Carousel2} alt='image2'  height={300} width={400}  />

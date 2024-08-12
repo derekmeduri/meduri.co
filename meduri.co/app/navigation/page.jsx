@@ -13,14 +13,14 @@ const Navigation = () => {
    </Link>
    </div>
    <div className="flex items-center space-x-10">
-   <Link href="/shop">
+   <Link href="/Shop">
    Shop
    </Link>
-   <Link href="/about">
+   <Link href="/About">
    About</Link>
-   <Link href="/contact">
+   <Link href="/Contact">
    Contact</Link>
-   <Link href="/cart">
+   <Link href="/Cart">
     <Image 
     src={CartIcon}
     alt="cart"
