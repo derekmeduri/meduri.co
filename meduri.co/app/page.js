@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import Navigation from "./navigation/page";
 import HomeCarousel from "./components/HomeCarousel";
 
